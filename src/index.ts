@@ -14,9 +14,9 @@ const person: [number, string, boolean] = [1, 'Jim', true];
 let employee: [number, string][];
 
 employee = [
-  [1, 'Jim'],
-  [2, 'Katie'],
-  [3, 'Nora'],
+    [1, 'Jim'],
+    [2, 'Katie'],
+    [3, 'Nora'],
 ];
 
 // Union
@@ -24,21 +24,21 @@ const pid: string | number = 22;
 
 // Enum
 enum Direction1 {
-  Up,
-  Down,
-  Left,
-  Right,
+    Up,
+    Down,
+    Left,
+    Right,
 }
 
 // Objects
 type User = {
-  id: number;
-  name: string;
+    id: number;
+    name: string;
 };
 
 const user: User = {
-  id: 1,
-  name: 'Jim',
+    id: 1,
+    name: 'Jim',
 };
 
 // Type Assertion
@@ -48,5 +48,5 @@ const customerId = cid as number;
 
 // Functions
 function addNum(x, y) {
-  return x + y;
+    return x + y;
 }
